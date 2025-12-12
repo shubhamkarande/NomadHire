@@ -18,7 +18,7 @@ class JobPolicy < ApplicationPolicy
   end
 
   def destroy?
-    user.admin? || (record.client_id == user.id && record.bids.empty?)
+    user.admin? || record.client_id == user.id
   end
 
   class Scope < Scope
