@@ -9,6 +9,7 @@ A full-stack freelance marketplace MVP featuring real-time chat, bidding system,
 | **Frontend** | SvelteKit, Tailwind CSS |
 | **Backend** | Ruby on Rails 8.1 (API mode) |
 | **Database** | PostgreSQL 18.x (Works with 14+) |
+| **Package Manager** | npm |
 | **Real-time** | ActionCable (WebSockets) |
 | **Auth** | Devise + devise-jwt (JWT tokens) |
 | **Background Jobs** | Sidekiq (Redis) |
